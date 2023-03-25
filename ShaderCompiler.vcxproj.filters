@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{0259E1F6-6EC3-956D-B701-471323AB73C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{3A4E330E-A662-5BBF-6FE4-FE1EDBB757F0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AssetMacros.h" />
+    <ClInclude Include="src\Libraries\ShaderCompiler.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Types\ShaderAsset.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Libraries\ShaderCompiler.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+</Project>
